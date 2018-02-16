@@ -21,7 +21,7 @@ try
 	//DBに接続
 	$dbh = sqlsrv_connect($serverName, $connectionInfo);
 
-  $sql0="select * from Hack ORDER BY id DESC;";
+  　　　　　　　　　　　　$sql0="select * from Hack ORDER BY id DESC;";
 	$stmt = sqlsrv_query($dbh,$sql0);
 
 	if (!$stmt) {
